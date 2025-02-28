@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Whitepaper $AMZ Token",
+  "name": "AmazonCoin ($AMZ)",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -16,31 +16,38 @@
           {
             "group": "Introdução",
             "pages": [
+              "introducao/bem-vindo",
               "introducao/motivacao",
-              "introducao/objetivos",
-              "introducao/visao-geral"
+              "introducao/pedido-de-ajuda",
+              "introducao/objetivo"
             ]
           },
           {
-            "group": "$AMZ - Token",
+            "group": "AMZ - Token",
             "pages": [
-              "token/informacoes-gerais",
+              "token/amazon-token",
               "token/tokenomics",
-              "token/distribuicao",
               "token/transparencia"
             ]
           },
           {
-            "group": "Usos e Benefícios",
-            "pages": ["usos/casos-de-uso", "usos/vantagens", "usos/ecossistema"]
+            "group": "Tecnologia",
+            "pages": [
+              "tecnologia/solana",
+              "tecnologia/contratos-inteligentes",
+              "tecnologia/seguranca"
+            ]
           },
           {
             "group": "Roadmap",
+            "pages": ["roadmap/fases", "roadmap/futuro"]
+          },
+          {
+            "group": "Equipe & Comunidade",
             "pages": [
-              "roadmap/fase-1",
-              "roadmap/fase-2",
-              "roadmap/fase-3",
-              "roadmap/fase-4"
+              "equipe/fundadores",
+              "equipe/parceiros",
+              "equipe/comunidade"
             ]
           }
         ]
@@ -49,19 +56,19 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Website",
-          "href": "https://amztoken.com",
-          "icon": "globe"
+          "anchor": "Documentação",
+          "href": "https://amazoncoin.com/docs",
+          "icon": "book-open-cover"
         },
         {
           "anchor": "Comunidade",
-          "href": "https://amztoken.com",
-          "icon": "users"
+          "href": "https://amazoncoin.com/comunidade",
+          "icon": "slack"
         },
         {
-          "anchor": "Comprar $AMZ",
-          "href": "https://amztoken.com",
-          "icon": "chart-line"
+          "anchor": "Blog",
+          "href": "https://amazoncoin.com/blog",
+          "icon": "newspaper"
         }
       ]
     }
@@ -74,20 +81,22 @@
     "links": [
       {
         "label": "Suporte",
-        "href": "mailto:contato@amztoken.com"
+        "href": "mailto:contato@amazoncoin.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Comprar $AMZ",
-      "href": "https://amztoken.com"
+      "label": "Dashboard",
+      "href": "https://dashboard.amazoncoin.com"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/amztoken",
-      "telegram": "https://t.me/amztoken",
-      "discord": "https://discord.gg/amztoken"
+      "x": "https://x.com/amazoncoin",
+      "github": "https://github.com/amazoncoin",
+      "linkedin": "https://linkedin.com/company/amazoncoin",
+      "telegram": "https://t.me/amazoncoin",
+      "discord": "https://discord.gg/amazoncoin"
     }
   }
 }
