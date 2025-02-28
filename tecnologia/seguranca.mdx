@@ -1,0 +1,172 @@
+---
+title: 'Segurança'
+description: 'Como garantimos a segurança dos fundos e a integridade do protocolo AmazonCoin'
+icon: 'shield-halved'
+---
+
+# Segurança da AmazonCoin
+
+<img
+  className="rounded-lg"
+  src="/images/security-layers.jpg"
+  alt="Camadas de segurança da AmazonCoin"
+/>
+
+## Abordagem de Segurança
+
+<Info>
+  A segurança é nossa prioridade máxima na AmazonCoin. Desenvolvemos uma
+  abordagem multicamadas que combina as melhores práticas da indústria
+  blockchain, medidas preventivas rigorosas e planos de resposta a incidentes
+  bem definidos. Nosso objetivo é proteger todos os aspectos do ecossistema,
+  desde os contratos inteligentes até os fundos dos usuários e do Fundo de
+  Conservação.
+</Info>
+
+## Pilares da Segurança
+
+<Statistics>
+  <Statistic
+    title="3"
+    description="Auditorias de segurança por empresas independentes"
+  />
+  <Statistic title="100%" description="Código-fonte aberto e verificável" />
+  <Statistic
+    title="4/7"
+    description="Multisig para operações críticas (4 de 7 assinaturas)"
+  />
+  <Statistic title="$500k" description="Cobertura de seguro contra exploits" />
+</Statistics>
+
+## Arquitetura de Segurança
+
+<CardGroup cols={2}>
+  <Card title="Contratos Inteligentes" icon="file-contract">
+    Desenvolvidos em Rust, linguagem conhecida por sua segurança, os contratos
+    passam por extensos testes e auditorias antes da implantação na mainnet.
+  </Card>
+  <Card title="Multisig e Timelock" icon="key">
+    Operações de alto impacto requerem aprovação de múltiplas partes e período
+    de espera, eliminando pontos únicos de falha e permitindo reação a
+    tentativas maliciosas.
+  </Card>
+  <Card title="Monitoramento 24/7" icon="chart-network">
+    Sistema de monitoramento automatizado que detecta atividades suspeitas em
+    tempo real, com equipe de segurança pronta para responder a quaisquer
+    alertas.
+  </Card>
+  <Card title="Seguro Descentralizado" icon="umbrella">
+    Parceria com protocolos de seguro descentralizado para fornecer cobertura
+    financeira em caso de exploits ou vulnerabilidades imprevistas.
+  </Card>
+</CardGroup>
+
+## Auditorias e Verificações
+
+<Steps>
+  <Step title="Auditorias Externas">
+    Nossos contratos foram auditados por CertiK, Trail of Bits e OtterSec,
+    empresas líderes em segurança blockchain, com todos os relatórios publicados
+    abertamente.
+  </Step>
+  <Step title="Revisão Comunitária">
+    Programa de bug bounty que recompensa a descoberta de vulnerabilidades,
+    incentivando a revisão contínua do código por especialistas independentes.
+  </Step>
+  <Step title="Testes Automatizados">
+    Suite completa de testes que cobre 95% do código, incluindo testes
+    unitários, de integração e simulações de ataques conhecidos.
+  </Step>
+  <Step title="Implementação Gradual">
+    Estratégia de lançamento em fases, começando com limites de valor menores
+    para minimizar riscos durante os primeiros meses de operação.
+  </Step>
+</Steps>
+
+## Segurança dos Fundos
+
+<Tabs>
+  <Tab title="Fundo de Conservação">
+    O Fundo de Conservação implementa um sistema multisig 4/7 onde os
+    signatários incluem membros da equipe, conselheiros externos e
+    representantes de ONGs ambientais parceiras. Todas as transferências
+    superiores a $50.000 exigem também um período de timelock de 72 horas,
+    permitindo verificação pública.
+  </Tab>
+  <Tab title="Reservas de Projeto">
+    Tokens reservados para desenvolvimento, equipe e parceiros estão sujeitos a
+    contratos de vesting com liberação gradual, implementados diretamente na
+    blockchain e não modificáveis, garantindo que nenhuma parte possa acessar
+    fundos bloqueados antes do período estabelecido.
+  </Tab>
+  <Tab title="Fundos de Usuários">
+    Implementamos um modelo non-custodial sempre que possível, permitindo que
+    usuários mantenham controle direto de seus tokens através de suas próprias
+    carteiras, eliminando riscos associados a modelos de custódia centralizada.
+  </Tab>
+</Tabs>
+
+## Prevenção contra Ataques Comuns
+
+<AccordionGroup>
+  <Accordion title="Reentrancy e Flash Loans">
+    Proteções específicas contra ataques de reentrância e manipulação via flash
+    loans, incluindo locks de reentrância e verificações de preço baseadas em
+    médias temporais (TWAP).
+  </Accordion>
+  <Accordion title="Manipulação de Oracle">
+    Uso de múltiplas fontes de dados para preços e informações externas,
+    implementando proteções contra manipulação e verificação cruzada entre
+    diferentes oracles.
+  </Accordion>
+  <Accordion title="Front-running">
+    Mecanismos para mitigar front-running, incluindo encapsulamento de
+    transações e proteção contra sandwiching em operações sensíveis a preço.
+  </Accordion>
+  <Accordion title="Ataques de Governança">
+    Proteções contra captura de governança, incluindo períodos de votação
+    estendidos, quóruns mínimos e bloqueio de tokens durante todo o processo de
+    proposta e votação.
+  </Accordion>
+</AccordionGroup>
+
+## Plano de Resposta a Incidentes
+
+<Steps>
+  <Step title="Detecção">
+    Sistema automatizado de monitoramento verifica continuamente por padrões
+    anômalos de transação, desvios de preço ou outros indicadores de possíveis
+    problemas.
+  </Step>
+  <Step title="Contenção">
+    Procedimento pré-definido para contenção rápida em caso de incidente,
+    incluindo pausa de emergência para funções críticas quando aplicável.
+  </Step>
+  <Step title="Análise e Resolução">
+    Equipe de resposta a incidentes pronta para analisar e resolver quaisquer
+    problemas identificados, com cronogramas claros para comunicação à
+    comunidade.
+  </Step>
+  <Step title="Recuperação e Aprendizado">
+    Procedimentos para implementação de correções, compensação a usuários
+    afetados quando aplicável, e integração das lições aprendidas à arquitetura
+    de segurança.
+  </Step>
+</Steps>
+
+## Compromisso com a Transparência
+
+<Warning>
+  Acreditamos que a transparência é um componente essencial da segurança.
+  Mantemos comunicação clara sobre nossa arquitetura de segurança, resultado de
+  auditorias (incluindo vulnerabilidades encontradas e corrigidas), e
+  implementamos prazos de divulgação responsável para quaisquer problemas
+  descobertos. Nosso objetivo é construir confiança através de práticas
+  transparentes e verificáveis.
+</Warning>
+
+<div className="mt-8">
+  <Button href="/token/caso-de-uso" variant="primary">
+    Voltar ao Caso de Uso
+  </Button>
+</div>{' '}

@@ -41,69 +41,16 @@
             ]
           },
           {
-            "group": "Impacto & Objetivos",
-            "pages": [
-              "impacto/modelo-de-doacao",
-              "impacto/alocacao-de-fundos",
-              "impacto/projetos-apoiados"
-            ]
-          },
-          {
             "group": "Tecnologia",
             "pages": [
               "tecnologia/por-que-solana",
               "tecnologia/contratos-inteligentes",
               "tecnologia/seguranca"
             ]
-          },
-          {
-            "group": "Roadmap",
-            "pages": [
-              "roadmap/fase-inicial",
-              "roadmap/expansao",
-              "roadmap/parcerias-estrategicas",
-              "roadmap/visao-futura"
-            ]
-          },
-          {
-            "group": "Comunidade & Participação",
-            "pages": ["comunidade/como-participar"]
-          },
-          {
-            "group": "Transparência",
-            "pages": [
-              "transparencia/relatorios-financeiros",
-              "transparencia/rastreamento-de-impacto",
-              "transparencia/codigo-de-conduta"
-            ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentação",
-          "href": "https://amazoncoin.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Impacto Ambiental",
-          "href": "https://amazoncoin.com/impacto",
-          "icon": "leaf"
-        },
-        {
-          "anchor": "Comunidade",
-          "href": "https://amazoncoin.com/comunidade",
-          "icon": "users"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://amazoncoin.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",

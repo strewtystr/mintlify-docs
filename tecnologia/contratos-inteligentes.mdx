@@ -1,0 +1,167 @@
+---
+title: 'Contratos Inteligentes'
+description: 'Como os smart contracts da AmazonCoin funcionam para garantir transparência e eficiência'
+icon: 'file-contract'
+---
+
+# Contratos Inteligentes da AmazonCoin
+
+<Frame>
+  <img
+    src="/images/smart-contracts-architecture.jpg"
+    alt="Arquitetura de smart contracts da AmazonCoin"
+  />
+</Frame>
+
+## Arquitetura Tecnológica
+
+<Info>
+  Os contratos inteligentes são o coração tecnológico da AmazonCoin, garantindo
+  que todas as operações do ecossistema ocorram de forma automática,
+  transparente e sem necessidade de intermediários. Nossa arquitetura foi
+  projetada para maximizar segurança, eficiência e transparência.
+</Info>
+
+## Principais Contratos do Ecossistema
+
+<CardGroup cols={2}>
+  <Card title="Token Principal (AMZ)" icon="coin">
+    Contrato SPL Token na Solana que implementa o token $AMZ, seguindo os
+    padrões do ecossistema Solana para compatibilidade máxima com carteiras e
+    exchanges.
+  </Card>
+  <Card title="Fundo de Conservação" icon="leaf">
+    Smart contract que recebe e gerencia automaticamente a porcentagem de taxas
+    de transação destinada a projetos de conservação, com liberação controlada
+    por governança DAO.
+  </Card>
+  <Card title="Governança DAO" icon="users-gear">
+    Sistema de governança baseado em Realms da Solana, permitindo votações
+    transparentes sobre alocação de recursos, seleção de projetos e atualizações
+    do protocolo.
+  </Card>
+  <Card title="Staking e Recompensas" icon="piggy-bank">
+    Gerencia o staking de tokens e distribuição de recompensas, incentivando
+    comprometimento de longo prazo com o projeto e participação na governança.
+  </Card>
+  <Card title="Certificação e Rastreamento" icon="certificate">
+    Sistema para registro e verificação de impacto ambiental, permitindo
+    transparência total sobre os resultados alcançados pelos projetos
+    financiados.
+  </Card>
+  <Card title="Vesting e Distribuição" icon="clock">
+    Controla a liberação gradual de tokens para equipe, investidores e
+    parceiros, conforme os cronogramas de vesting estabelecidos.
+  </Card>
+</CardGroup>
+
+## Funcionalidades Principais
+
+<Tabs>
+  <Tab title="Taxa de Conservação">
+    Nosso contrato principal implementa automaticamente uma taxa de 2% em cada
+    transação, direcionando 1,5% para o Fundo de Conservação e 0,5% para
+    recompensas de staking. Transações específicas como doações diretas são
+    isentas desta taxa através de um sistema de whitelisting.
+  </Tab>
+  <Tab title="Governança Descentralizada">
+    O contrato de governança permite que detentores de tokens votem em propostas
+    com peso proporcional à sua participação. Inclui sistema de delegação de
+    votos, quorum mínimo para aprovação e timelock para implementação de
+    mudanças, garantindo segurança e representatividade.
+  </Tab>
+  <Tab title="Sistema de Staking">
+    Permite que usuários façam staking de seus tokens, bloqueando-os por um
+    período determinado em troca de recompensas e maior poder de voto na
+    governança. Implementa diferentes tiers baseados no tempo de bloqueio, com
+    incentivos progressivos para compromissos mais longos.
+  </Tab>
+  <Tab title="Impacto Verificável">
+    Contratos para registro e verificação de ações ambientais, onde ONGs e
+    projetos parceiros podem documentar resultados que são verificados por
+    auditores credenciados e registrados permanentemente na blockchain.
+  </Tab>
+</Tabs>
+
+## Verificabilidade e Transparência
+
+<Steps>
+  <Step title="Código Aberto">
+    Todos os contratos da AmazonCoin são de código aberto, disponíveis para
+    inspeção pública em nosso GitHub, permitindo verificação independente da
+    segurança e funcionamento.
+  </Step>
+  <Step title="Endereços Verificados">
+    Os endereços oficiais dos contratos são verificados e publicados em nossos
+    canais oficiais e exploradores Solana, permitindo que usuários confirmem a
+    autenticidade antes de interagir.
+  </Step>
+  <Step title="Auditoria Multisig">
+    Operações críticas como atualizações de contrato exigem aprovação de
+    múltiplas chaves em um esquema multisig, eliminando pontos únicos de falha e
+    aumentando a descentralização.
+  </Step>
+  <Step title="Registros Imutáveis">
+    Todas as transações, incluindo distribuição de fundos para projetos e
+    resultados de votações, são registradas permanentemente na blockchain e
+    podem ser verificadas por qualquer pessoa.
+  </Step>
+</Steps>
+
+## Segurança e Auditoria
+
+<AccordionGroup>
+  <Accordion title="Auditorias Externas">
+    Nossos contratos passaram por múltiplas auditorias de segurança realizadas
+    por empresas renomadas como CertiK, Trail of Bits e OtterSec, com relatórios
+    completos disponíveis publicamente.
+  </Accordion>
+  <Accordion title="Testes Automatizados">
+    Implementamos testes automatizados extensivos, incluindo testes unitários,
+    integração e simulações de ataques, para garantir a robustez do código em
+    diferentes cenários.
+  </Accordion>
+  <Accordion title="Timelock e Upgrades">
+    Quaisquer atualizações nos contratos passam por um período de timelock de 48
+    horas, dando tempo para a comunidade revisar as mudanças antes que entrem em
+    vigor.
+  </Accordion>
+  <Accordion title="Limitadores de Risco">
+    Implementamos diversos limitadores para mitigar riscos, como caps diários de
+    transação, proteções contra flash loans e circuitos de emergência para casos
+    extremos.
+  </Accordion>
+</AccordionGroup>
+
+## Implementação Técnica
+
+<Note>
+  Os contratos inteligentes da AmazonCoin são desenvolvidos em Rust, a linguagem
+  nativa para desenvolvimento na Solana, aproveitando seu sistema de tipos
+  rígido e verificações em tempo de compilação para evitar classes inteiras de
+  bugs potenciais. Seguimos as melhores práticas de desenvolvimento Solana e
+  padrões estabelecidos pela comunidade.
+</Note>
+
+## Interface de Programação (API)
+
+<CardGroup cols={3}>
+  <Card title="JSON RPC" icon="brackets-curly">
+    Interface padrão para interação com nossos contratos através de qualquer
+    linguagem de programação.
+  </Card>
+  <Card title="SDK Javascript" icon="js">
+    Biblioteca de cliente que simplifica a integração em aplicações web e
+    mobile.
+  </Card>
+  <Card title="Documentação API" icon="book-open-cover">
+    Documentação detalhada de todas as funções e parâmetros para
+    desenvolvedores.
+  </Card>
+</CardGroup>
+
+<div className="mt-8">
+  <Button href="/tecnologia/seguranca" variant="primary">
+    Conheça Nossas Medidas de Segurança
+  </Button>
+</div>{' '}
