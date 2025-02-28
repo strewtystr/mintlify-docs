@@ -50,17 +50,17 @@
       "anchors": [
         {
           "anchor": "Website",
-          "href": "#",
+          "href": "https://amztoken.com",
           "icon": "globe"
         },
         {
           "anchor": "Comunidade",
-          "href": "#",
+          "href": "https://amztoken.com",
           "icon": "users"
         },
         {
           "anchor": "Comprar $AMZ",
-          "href": "#",
+          "href": "https://amztoken.com",
           "icon": "chart-line"
         }
       ]
@@ -80,7 +80,7 @@
     "primary": {
       "type": "button",
       "label": "Comprar $AMZ",
-      "href": "#"
+      "href": "https://amztoken.com"
     }
   },
   "footer": {
