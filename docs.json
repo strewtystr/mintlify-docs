@@ -35,11 +35,9 @@
             "group": "AmazonCoin ($AMZ)",
             "icon": "coin",
             "pages": [
-              "token/sobre-amazoncoin",
               "token/caso-de-uso",
               "token/tokenomics",
-              "token/distribuicao",
-              "token/modelo-de-governanca"
+              "token/distribuicao"
             ]
           },
           {
@@ -47,9 +45,7 @@
             "pages": [
               "impacto/modelo-de-doacao",
               "impacto/alocacao-de-fundos",
-              "impacto/metricas-de-impacto",
-              "impacto/projetos-apoiados",
-              "impacto/conservacao-florestal"
+              "impacto/projetos-apoiados"
             ]
           },
           {
@@ -57,9 +53,7 @@
             "pages": [
               "tecnologia/por-que-solana",
               "tecnologia/contratos-inteligentes",
-              "tecnologia/seguranca",
-              "tecnologia/auditoria",
-              "tecnologia/sustentabilidade-blockchain"
+              "tecnologia/seguranca"
             ]
           },
           {
@@ -72,29 +66,14 @@
             ]
           },
           {
-            "group": "Equipe & Parceiros",
-            "pages": [
-              "equipe/fundadores",
-              "equipe/conselho-consultivo",
-              "equipe/organizacoes-parceiras",
-              "equipe/ONGs-ambientais"
-            ]
-          },
-          {
             "group": "Comunidade & Participação",
-            "pages": [
-              "comunidade/como-participar",
-              "comunidade/programa-embaixadores",
-              "comunidade/eventos",
-              "comunidade/educacao-ambiental"
-            ]
+            "pages": ["comunidade/como-participar"]
           },
           {
             "group": "Transparência",
             "pages": [
               "transparencia/relatorios-financeiros",
               "transparencia/rastreamento-de-impacto",
-              "transparencia/governanca-dao",
               "transparencia/codigo-de-conduta"
             ]
           }
